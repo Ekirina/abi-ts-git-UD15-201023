@@ -219,3 +219,6 @@ insert into ciclo_asignatura_profesor values (1, 1, 1, '2023-09-19', '2023-06-10
 											 (10, 4, 3, '2023-09-19', '2023-06-10'),
 											 (6, 2, 7, '2023-09-19', '2023-06-10'),
 											 (8, 2, 4, '2023-09-19', '2023-06-10');
+
+delete from ciclo
+where nombre = "Tecnico en Gestión Administrativa";
